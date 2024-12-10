@@ -21,7 +21,7 @@ import cors from 'cors';
 
 
 const corsOptions = {
-  origin: 'https://thorge3-front.vercel.app', // Ersetze dies mit deiner tatsächlichen Frontend-Domain
+  origin: 'https://geo-pick-points.vercel.app', // Ersetze dies mit deiner tatsächlichen Frontend-Domain
   methods: 'GET,POST,PUT,DELETE',
   allowedHeaders: 'Content-Type, Authorization', // Erlaubte Header
   credentials: true, // Falls du Cookies oder Authentifizierung benötigst
