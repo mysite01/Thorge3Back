@@ -1,6 +1,7 @@
 {
  "scripts": {
- "start": "ts-node src/index.ts",
+ "start": "node --max-old-space-size=15192 src/index.ts"
+
   "test": "jest"
  },
  "dependencies": {
