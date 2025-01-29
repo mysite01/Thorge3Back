@@ -1,7 +1,7 @@
 {
  "scripts": {
  "start": "ts-node --max-old-space-size=15192 src/index.ts",
-,
+
 
   "test": "jest"
  },
